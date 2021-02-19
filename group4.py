@@ -22,7 +22,7 @@
 
 def callFunction():
     try:
-        maximumNumb = int(input("Enter a maximum number : "))
+        maximumNumb = int(input("Enter a valid number : "))
         oddSum = 0
 
         while maximumNumb > 100 or maximumNumb < 1:
